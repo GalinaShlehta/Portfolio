@@ -1,0 +1,48 @@
+// main: ../style.less
+
+.social {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.social__link {
+  display: flex;
+  align-items: center;
+
+  text-decoration: none;
+  margin-right: 10px;
+  transition: transform 0.2s linear;
+
+  width: 35px;
+  height: 35px;
+
+  &--be {
+    background-color: @be;
+  }
+
+  &--fb {
+    background-color: @fb;
+  }
+
+  &--inst {
+    background-color: @inst;
+  }
+
+  &--in {
+    background-color: @in;
+  }
+
+  &--tw {
+    background-color: @tw;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+.social__link img {
+  height: 19px;
+  margin: auto;
+  color: @white;
+}
