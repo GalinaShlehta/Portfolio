@@ -1,4 +1,4 @@
-# Test Project
+# Portfolio Project
 
 This is a simple web page to show my work skills with HTML, CSS and JavaScript.
 
